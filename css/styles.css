@@ -1,0 +1,327 @@
+/* En este archivo escriban su CSS */
+
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* Importar aquí la font */
+
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+body {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #0be4e4;
+
+}
+
+/* HEADER
+*/
+
+
+header {
+    background-color: white;
+    color: #0be4e4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 670px;
+    max-height: 594.05px;
+
+
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+
+    margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+main {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: contents;
+    font-style: normal;
+    color: rgb(100, 7, 77);
+    text-align: justify;
+    background-color: #0be4e4;
+    text-align: justify;
+    width: 670px;
+    height: 594.05px;
+
+
+
+}
+
+.Nosotros {
+
+    border-top: 0;
+    border-bottom: 0;
+    padding: o;
+}
+
+.DATOS {
+    flex-direction: row;
+    justify-content: center;
+    display: none;
+
+}
+
+.DATOS h3 {
+    color: rgb(100, 7, 77);
+}
+
+
+.atributos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-y: auto;
+
+
+}
+
+h1 {
+    text-align: center;
+
+}
+
+foto1 {
+
+    width: "100px";
+    height: "100px";
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+h6 {
+    color: rgb(100, 7, 77);
+    ;
+}
+
+.cuadro1 {
+
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+    justify-content: center;
+}
+
+.cuadro2 {
+
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+    justify-content: center;
+}
+
+.cuadro3 {
+
+    width: 100px;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+    justify-content: center;
+}
+
+
+main.div.foto2 {
+    border-top: 0;
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+
+
+}
+
+main.div.diseño {
+    border-top: 0;
+    width: 200px;
+    height: 200px;
+
+}
+
+div.diseño {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(167, 125, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(51, 158, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(162, 199, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(47, 243, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.equipo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(100, 7, 77);
+
+
+
+}
+
+input {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-color: #0be4e4;
+    width: 600px;
+    height: 100px;
+    color: rgb(100, 7, 77);
+    background-color: #2c7380;
+    color: rgb(255, 240, 250);
+    font-size: 20px;
+
+
+
+}
+
+forn input[Type=" submit"] footer {
+
+    width: 100%;
+    height: 100px;
+    background-color: #2c7380;
+    color: rgb(100, 7, 77);
+    text-decoration: none;
+    text-align: justify;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+footer {
+
+    background-color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: rgb(100, 7, 77);
+    width: 670px;
+    height: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+/* Reset */
