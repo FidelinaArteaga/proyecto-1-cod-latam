@@ -1,62 +1,60 @@
-/* En este archivo escriban su CSS */
-
-
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 /* Importar aquí la font */
 
+/* En este archivo escriban su CSS 
 
-/* Reset */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* Para que el scrolleo en la one page sea suave */
-    scroll-behavior: smooth;
-}
 
-/* Para quitar los puntos a los items de listas */
-ul {
-    list-style: none;
-}
-
-/* Para que los enlaces hereden el color de texto y no tengan subrayado */
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
-*  el margin: auto; para tenerlo centrado fácilmente ;)
-*/
-main {
-    max-width: 1200px;
-    margin: auto;
-}
+/* ESTILO BODY*/
 body {
 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #0be4e4;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
 
 }
 
-/* HEADER
-*/
+ul {
+
+    list-style: none;
+}
+
+
+/* HEADER*/
 
 
 header {
-    background-color: white;
-    color: #0be4e4;
+    background-color: #0be4e4;
+    color: #05425a;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 670px;
-    max-height: 594.05px;
 
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.logo {
+    border-color: blueviolet;
+    border: 50px;
+    border-radius: 50%;
+    border: 4px solid blueviolet;
 
 }
 
@@ -74,74 +72,66 @@ nav ul li {
 }
 
 
+nav ul li :last-child {
+    margin-right: 0;
 
+}
 
+nav ul li a {
+    font-weight: bold;
+    font-size: 20px;
 
+}
+
+/* MAIN*/
 
 
 main {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: contents;
-    font-style: normal;
-    color: rgb(100, 7, 77);
-    text-align: justify;
-    background-color: #0be4e4;
-    text-align: justify;
-    width: 670px;
-    height: 594.05px;
 
-
+    padding: 40px;
 
 }
 
-.Nosotros {
-
-    border-top: 0;
-    border-bottom: 0;
-    padding: o;
-}
-
-.DATOS {
-    flex-direction: row;
-    justify-content: center;
-    display: none;
-
-}
-
-.DATOS h3 {
-    color: rgb(100, 7, 77);
-}
-
-
-.atributos {
+#Nosotros {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    overflow-y: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
+}
+
+article {
+
+    text-align: justify;
+}
+
+img {
+
+    max-width: 35rem;
+    border-radius: 20%;
+    border: 4px solid #0be4e0;
+    box-shadow: 0 0 10px #0be4e0(0, 0, 0, 07)
+    
+}
+
+
+section{
+margin-bottom: 2opx;
 
 }
 
 h1 {
+    box-sizing:120px;
+    font-size: 30px;
+    color: rgb(66, 4, 124);
+    margin-bottom: 40px;
     text-align: center;
-
+    justify-content: center;
 }
 
-foto1 {
-
-    width: "100px";
-    height: "100px";
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    border-radius: 10px;
-
+p {
+text-align: justify;
 }
-
 h6 {
     color: rgb(100, 7, 77);
     ;
